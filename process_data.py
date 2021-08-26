@@ -24,5 +24,4 @@ for col in non_numeric:
     codes,uniques=pd.factorize(df[col])
     df[col] = codes
 
-df.to_csv("--------------------------data_processed ----------------------.csv")
-
+df.to_csv("data_processed.csv")
